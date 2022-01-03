@@ -1,0 +1,42 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: url(Imagenes/fonfo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100vw 100vh;
+
+
+}
+.relleno{
+    text-align: center;
+    font-weight: bold;
+}
+.enlaces{
+    display: flex;
+    flex-flow: row nowrap;
+    
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.enlaces button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    /*background: url(Imagenes/school-timetable-template-free-vector.jpg);
+    background-size: 300px;*/
+    border: 1px solid rgb(110, 110, 110) ;
+
+}
+.enlaces img{
+    width: 260px;
+    border-radius: 10px;
+}
+.enlaces div{
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 20px;
+}

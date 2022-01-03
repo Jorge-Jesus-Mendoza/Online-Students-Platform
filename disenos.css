@@ -1,0 +1,367 @@
+*{
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(130, 206, 209,.2);
+    
+}
+a{
+    text-decoration: none;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.header{
+    background: url(Imagenes/p1.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 3px;
+    
+}
+
+    
+    .menu{
+        background: rgba(0,0,0,.1);
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        height: 60px;
+        align-items: center;
+        border-bottom: 1px solid rgba(255,255,255,.5);
+        /**position: fixed;
+        width: 99%;**/
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo a{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .margen-interno{
+        padding: 0 50px;
+    }
+    .instrucciones{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        font-size: 85%;
+        font-weight: bolder;
+        padding: 20px 20px;
+    }
+    .nav .relleno{
+        color: rgba(0,0,0,.0);
+        cursor: default;
+
+    }
+    #titulo2{
+        color: rgb(47, 222, 235);
+        font-size: 40px;
+        text-align: center;
+    }
+    .nav a{
+        color: rgb(255, 255, 255);
+        justify-content: flex-end;
+        font-weight: bold;
+    }
+    .nav a:hover{
+        color: rgb(32, 7, 80);
+    }
+    .titulo3{
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .texto-principal{
+        /* background: #f07b3f; */
+        height: 300px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+    }
+.secciones{
+    display:flex;
+    flex-flow: row nowrap;
+    border-radius: 3px;
+    height: max-content;
+    padding: 15px 15px;
+    margin: 2px 2px;
+    height: 560px;
+    align-items: center;
+    justify-content: center;
+    background: url(Imagenes/login-fondo.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+}
+.secciones2{
+    display:flex;
+    flex-flow: row nowrap;
+    border-radius: 3px;
+    height: max-content;
+    padding: 15px 15px;
+    margin: 2px 2px;
+
+    align-items: center;
+    justify-content: center;
+    
+    background: url(Imagenes/pngtree-higher-education-cartoon-hand-drawn-book-blue-green-poster-background-image_124233.jpg);
+    background-size: contain;
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    
+
+}
+.otro{
+    background: url(Imagenes/ae9b7bae38d9ec5cb974814aa032ca1e-ilustracion-de-personajes-de-maestros-y-ninos.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+    .sect1{
+        
+        width: 350px;
+        border-radius: 5px;
+        padding: 3px 3px;
+        
+        justify-content: space-evenly;
+        border: 10px solid rgb(225, 231, 250) ;
+       /* box-shadow: -10px 10px 10px #888;*/
+        background: #fff;
+        
+        
+       
+    }
+    .sect1 .button{
+        justify-content: center;
+    }
+    .imagenes-fondo{
+        display: flex;
+        justify-content: center;
+    }
+    .imagenes-fondo img{
+        display: flex;
+        width: max-content;
+        height: 125px;
+        
+        
+        
+    }
+    
+    .titulos{
+        display: inline-flex;
+        
+        
+    }
+    
+        .sect1 h5{
+            text-align: center;
+        }
+        .expandir{
+            display: none;
+            text-decoration: none;
+        }
+        
+        .uno{
+            display: flex;
+            flex-flow: row nowrap;
+            margin: 5px 5px;
+            padding: 10px 10px;
+            width: 98%;
+            height: auto;
+            background: rgb(0, 0, 0, .1);
+            border-radius: 3px;
+        }
+
+            .contiene-img{
+
+                width: 110px;
+                height: 140px;
+                border-radius: 3px;
+            }
+
+                .contiene-img img{
+                    width: 100px;
+                    height: 120px;
+                    
+                }
+
+    .sect2{
+        
+        padding: 5px 5px;
+        width: 400px;
+        border-radius: 5px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-content: center;
+        border: 10px solid rgb(192, 231, 209);
+        /*box-shadow: 0px 10px 10px #888;*/
+        background: #fff;
+
+    }
+        .sect2 h5{
+            text-align: center;
+        }
+        .dos{
+            display: flex;
+            flex-flow: row nowrap;
+            margin: 5px 5px;
+            padding: 15px 15px;
+            width: 98%;
+            height: auto;
+            background: rgb(0, 0, 0, .1);
+            border-radius: 3px;
+        }
+
+    
+    .sect3{
+        
+        width: 20%;
+        border-radius: 5px;
+        display: flex;
+        flex-flow: column;
+        width: 300px;
+        justify-content: space-evenly;
+        border: 10px solid rgb(243, 183, 183);
+        /*box-shadow: 0px 10px 10px #888;*/
+        background: #fff;
+    }
+        .sect3 h5{
+            text-align: center;
+        }
+        .tres{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin: 5px 5px;
+            padding: 10px 10px;
+            width: 96.5%;
+            height: auto;
+            background: rgb(0, 0, 0, .1);
+            border-radius: 3px;
+        }
+        .tres p{
+            text-align: center;
+        }
+
+.pie{
+    width: 100%;
+    background: black;
+    height: max-content;
+    border-radius: 3px;
+    display: flex;
+    align-self: end;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+.pie h3{
+    color: white;
+}
+
+
+ 
+
+
+@media all and (max-width: 1070px){
+    .logo{
+        width: 30%;
+    }
+}
+
+
+
+
+@media all and (max-width: 919px){
+    .secciones{
+        flex-flow: column;
+    }
+    .sect1{
+        width: 100%;
+    }
+    .sect2{
+        width: 100%;
+        box-shadow: -10px 10px 10px #888;
+    }
+    .sect3{
+        width: 100%;
+        box-shadow: -10px 10px 10px #888;
+
+    }
+    #titulo2{
+        font-size: 40px;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(47, 222, 235);
+    }
+    .tres{
+        flex-flow: row nowrap;
+    }
+    .expandir{
+        display: inline-flex;
+    }
+
+    .desaparece{
+        display: none;
+    }
+
+    .desaparece2{
+        display: none;
+    }
+    
+    .desaparece3{
+        display: none;
+    }
+    .imagenes-fondo{
+        justify-content: flex-end;
+    }
+}
+    
+
+@media all and (max-width: 820px){
+
+    .logo{
+        display: none;
+    }
+    .menu{
+        justify-content: space-around;
+    }
+    .instrucciones{
+        font-size: 65%;
+    }
+}
+
+.MegaLogin {
+
+    background-color: black;
+
+    /*background-image: url(../../img/DistantMountain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;*/
+
+}
